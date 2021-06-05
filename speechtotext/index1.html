@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech to text</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="topnavbar">
+      <a href="../speechtotext/index1.html" class="topnavbar2"
+        >Speech to text</a
+      >
+      <a href="../texttospeech/index2.html" class="topnavbar2"
+        >Text to speech</a
+      >
+      <a href="../selectbyvoice/index3.html" class="topnavbar2"
+        >Select by voice</a
+      >
+    </div>
+    <div class="container">
+      <div class="container">
+        <h1 class="text-center mt-4">Speech to text</h1>
+
+        <div class="form-group">
+          <textarea id="text-box" rows="8" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <button id="start-btn" class="btn btn-warning btn-block">
+            Start now
+          </button>
+
+          <p id="instructions">Press the START button</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</html>
